@@ -101,11 +101,6 @@ function showError(){
   console.log("Error in writing to the database");
 }
 
-function keyPressed(){
-  if(keyCode === 32){
-    coolSound.play();
-  }
-}
 
 function togglePlaying(){
   if(!coolSound.isPlaying()){  
